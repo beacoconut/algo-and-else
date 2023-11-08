@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gfg</title>
+    <script src ='del.js'></script>
+</head>
+<body>
+    <form action="https://www.yandex.ru/search?" method="post" target="_blank">
+        <ul>
+            <li>
+                <label for="question"> задача:</label>
+                <input type="text" id ='question' value = '1006(разменять деньги по 500, 100, 10, 2)'>
+            </li>
+            <li>
+                <label for="number">chislo</label>
+                <input type="number" id="number" value=0 oninput="change()">
+            </li>
+            <li>
+                <label for="po500">po 500</label>
+                <input type="number" id="po500" value=0>
+            </li>
+            <li>
+                <label for="po100">po 100</label>
+                <input type="number" id="po100" value=0>
+            </li>
+            <li>
+                <label for="po10">po 10</label>
+                <input type="number" id="po10" value=0>
+            </li>
+            <li>
+                <label for="po2">po 2</label>
+                <input type="number" id="po2" value=0>
+            </li>
+            <li>
+                <label for="ost">ost</label>
+                <input type="number" id="ost" value=0>
+            </li>
+                <button onclick="send()">Отправить</button>
+        </ul>
+    </form>
+</body>
+</html>
